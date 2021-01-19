@@ -1,0 +1,145 @@
+$hoverColor: #80808090;
+
+.search-container {
+    background-color: rgba(0, 0, 0, .10);
+    background-image: url(https://i.ytimg.com/vi/245_u3OsrnE/maxresdefault.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 300px;
+}
+
+.search-inner-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 70px;
+    padding-bottom: 0;
+    max-width: 975px;
+}
+
+.search-input, .search-btn {
+    color: rgb(206, 185, 185);
+    border: 2px solid rgb(82, 82, 133);
+    background-color: rgba(255, 255, 255, .1);
+    font-size: 1.3em;
+    font-weight: lighter;
+    padding: .70em;
+    text-align: center;
+    vertical-align: middle;
+    outline: none;
+}
+
+.search-input {
+    width: 60%;
+    cursor: text;
+}
+
+.search-btn {
+    max-width: 120px;
+    width: 20%;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: $hoverColor;
+}
+
+.last-added-container, .top-rated-container {
+    margin: 50px 0;
+}
+
+.last-added, .top-rated {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow-icon:hover {
+    cursor: pointer;
+    color: $hoverColor;
+}
+
+.last-added-items, .top-rated-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.last-added-item, .top-rated-item {
+    margin: 30px;
+}
+
+.item-title {
+    margin: 0;
+}
+
+.item-year {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    color: #777;
+}
+
+.top-rated-title, .last-added-title {
+    margin-bottom: 0;
+}
+
+.searched-items-container {
+    position: absolute;
+    width: 100%;
+    padding-top: 10px;
+    margin-top: 3px;
+    // background-color: rgba(128, 128, 128, 0.6);
+}
+
+.searched-items {
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.inner-searched-items {
+    display: flex;
+    justify-content: center;
+}
+
+.movie-detile-container {
+    position: relative;
+}
+
+.img {
+    position: relative;
+    width: 185px;
+    height: 278px;
+    margin: 0 10px;
+}
+
+.movie-detile {
+    position: absolute;
+    color: #ffffff00;
+    left: 71px;
+    top: 109px;
+    cursor: pointer;
+}
+
+.movie-detile:hover {
+    color: #777;
+}
+
+.display-movie-details {
+    display: flex;
+    margin: 100px 15%;
+    padding: 20px 15px;
+    background-color: aqua;
+}
+
+.movie-infos {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left
+}
+
+h2, p {
+    margin: 3px;
+}

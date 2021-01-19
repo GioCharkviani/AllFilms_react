@@ -1,0 +1,55 @@
+.navbar-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 55px;
+    background-color: rgba(128, 128, 128, 0.6);
+    z-index: 10;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-title-container {
+    margin-left: 30px;
+}
+
+.account-container {
+    margin-right: 60px;
+}
+
+.main-title {
+    font-size: 2.3em;
+    color: black;
+    font-weight: 600;
+    background: linear-gradient(to right, orange , red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-nav {
+    font-size: 26px;
+    color: white;
+    padding: 0 20px;
+}
+
+.main-nav:hover {
+    color: rgb(167, 161, 161);
+}
+
+.account-reg {
+    font-size: 26px;
+    color: aqua;
+}
+
+.account-reg:hover {
+    color: rgb(167, 161, 161);
+}

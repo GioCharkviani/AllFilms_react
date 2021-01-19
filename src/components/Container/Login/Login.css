@@ -1,0 +1,33 @@
+.login-container {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.inner-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.user, .pass {
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+}
+
+.auth {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin: 5px 0;
+}
